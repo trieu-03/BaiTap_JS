@@ -37,11 +37,6 @@ document.getElementById("btnTinhLuong").onclick = tinhTienLuong;
 
 
 
-
-
-
-
-
  //! BAITAP2 
 /**
  * Khối 1: input
@@ -118,7 +113,6 @@ function quyDoiTien() {
 
 
 
-
 //! BAITAP4
 /**
  * Khối 1: input
@@ -154,8 +148,6 @@ function tinhChuVi_DienTich_HCN() {
 }
 
 document.getElementById("tinhKQ").onclick = tinhChuVi_DienTich_HCN;
-
-
 
 
 
