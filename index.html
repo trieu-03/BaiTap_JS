@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài tập UI JS</title>
+
+    <!-- Font Awaysome  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        
+        <!-- BS4  -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+  integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+
+</head>
+
+<body>
+
+
+
+
+<div class="container">
+
+
+    <!--! BAITAP1  -->
+    <div class="card w-50 mt-5 ">
+        <div class="card-header bg-dark text-white">
+        <h3 class="text-center"> Tính Tiền Lương Nhân Viên</h3>
+        </div>
+        <div class="card-body">
+            <div class="form-group">
+                <p>Nhập Lương Một Ngày </p>
+                <input type="number" class="form-control" id="tienLuong">
+            </div>
+            <div class="form-group">
+                <p>Số Ngày Làm</p>
+                <input type="number" class="form-control" id="ngayLam">
+            </div>
+    
+        </div>
+        <div class="card-footer text-center">
+               <button type="button" id="btnTinhLuong" class="btn btn-success">Tính Lương</button>
+               <div class="mt-2 text-center">
+                <span id="ketQuaTinh">Kết Quả Tính</span>
+               </div>
+        </div>
+    </div>
+    
+
+
+    <!--! BAITAP2  -->
+
+    <div class="card w-50 mt-5 ">
+        <div class="card-header bg-dark text-white">
+        <h3 class="text-center"> Tính Giá Trị Trung Bình</h3>
+        </div>
+        <div class="card-body">
+            <div class="form-group">
+                <p>Nhập Số Thứ 1  </p>
+                <input type="number" class="form-control" id="thuNhat">
+            </div>
+            <div class="form-group">
+                <p>Nhập Số Thứ 2</p>
+                <input type="number" class="form-control" id="thuHai">
+            </div>
+            <div class="form-group">
+                <p>Nhập Số Thứ 3</p>
+                <input type="number" class="form-control" id="thuBa">
+            </div>
+            <div class="form-group">
+                <p>Nhập Số Thứ 4</p>
+                <input type="number" class="form-control" id="thuBon">
+            </div>
+            <div class="form-group">
+                <p>Nhập Số Thứ 5</p>
+                <input type="number" class="form-control" id="thuNam">
+            </div>
+    
+        </div>
+        <div class="card-footer text-center">
+               <button type="button" id="btnGtriTB" class="btn btn-success">Tính Trung Bình</button>
+               <div class="mt-2 text-center">
+                <span id="ketGtriTB">Kết Quả Tính</span>
+               </div>
+        </div>
+    </div>
+
+
+
+
+    <!--! BAITAP3 -->
+
+    <div class="card w-50 mt-5 ">
+        <div class="card-header bg-dark text-white">
+        <h3 class="text-center"> Quy Đổi Tiền </h3>
+        </div>
+        <div class="card-body">
+            <div class="form-group">
+                <p>Nhập Số Tiền USD</p>
+                <input type="number" class="form-control" id="tienUSD">
+            </div>
+    
+        </div>
+        <div class="card-footer text-center">
+               <button type="button" id="btnDoiTien" class="btn btn-success">Tính Lương</button>
+               <div class="mt-2 text-center">
+                <span id="USDTien">Kết Quả Tính</span>
+               </div>
+        </div>
+    </div>
+
+
+    <!--! BAITAP4! -->
+
+
+    <div class="card w-50 mt-5 ">
+        <div class="card-header bg-dark text-white">
+        <h3 class="text-center"> Tính Diện Tích, Chu Vi Hình Chữ Nhật</h3>
+        </div>
+        <div class="card-body">
+            <div class="form-group">
+                <p>Nhập Chiều Dài </p>
+                <input type="number" class="form-control" id="chieuDai">
+            </div>
+            <div class="form-group">
+                <p>Nhập Chiều Rộng</p>
+                <input type="number" class="form-control" id="chieuRong">
+            </div>
+    
+        </div>
+        <div class="card-footer text-center">
+               <button type="button" id="daiRong" class="btn btn-success">Tính Lương</button>
+               <div class="mt-2 text-center">
+                <span id="tinhChuDien">Kết Quả Tính</span>
+               </div>
+        </div>
+    </div>
+    
+
+    <!--! BAITAP5! -->
+
+    <div class="card w-50 mt-5 ">
+        <div class="card-header bg-dark text-white">
+        <h3 class="text-center"> Tính Tổng 2 Ký Số </h3>
+        </div>
+        <div class="card-body">
+            <div class="form-group">
+                <p>Nhập Số Số Có 2 Chữ Số</p>
+                <input type="number" class="form-control" id="nhapSo">
+            </div>
+    
+        </div>
+        <div class="card-footer text-center">
+               <button type="button" id="btnNhapSo" class="btn btn-success">Tính Lương</button>
+               <div class="mt-2 text-center">
+                <span id="tinhTongSo">Kết Quả Tính</span>
+               </div>
+        </div>
+    </div>
+
+
+
+
+
+
+</div>
+
+
+    <!-- JS  -->
+    <script src="./JS/main.js"></script>
+</body>
+
+</html>
