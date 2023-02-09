@@ -119,7 +119,6 @@ function quyDoiTien() {
 
 
 
-
 //! BAITAP4
 /**
  * Khối 1: input
