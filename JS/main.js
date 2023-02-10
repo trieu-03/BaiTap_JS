@@ -179,7 +179,7 @@ function tinhTongTwoKySo() {
     var hangChuc =  Math.floor(number/10);
     var hangDonVi =  number%10;
 
-    console.log(hangChuc,hangDonVi);
+    // console.log(hangChuc,hangDonVi);
 
     document.getElementById("ketQuaKySo").innerHTML = "Kết quả: " + (hangChuc + hangDonVi);
 
